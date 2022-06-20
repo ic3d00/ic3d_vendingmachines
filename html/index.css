@@ -1,0 +1,60 @@
+body {
+    background: none !important;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(10, 10, 10);
+    height: 920px;
+    width: 600px;
+    border: 2px solid #00000;
+    border-radius: 10px;
+    animation: fade-in 0.8s forwards;
+}
+
+vendingmachine {
+    max-width:100%;
+    max-height:100%;
+    animation: fade-in 0.8s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.buy {
+    top: 400px;
+    left: 510px;
+    position: absolute;
+    z-index: 11;
+}
+
+button:hover{
+  border: 2px solid #888;
+  background-color: transparent;
+  padding-left: 1px;
+}
+
+button {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #888;
+    padding-top: 0px;
+    padding-left: 0px;
+    height: 270px;
+    width: 100px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
