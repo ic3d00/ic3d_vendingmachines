@@ -4,5 +4,5 @@ A cool vending UI
 
 # Features
 . Configurable range, item, price and prop(s)  
-. 6 languages available  
+. 7 languages available  
 . Cool UI  
