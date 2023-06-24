@@ -1,11 +1,13 @@
-ESX = nil
 local display = false -- NUI Display
 
 Citizen.CreateThread(function()
+  if not Config.NewESX then
+    ESX = nil
     while ESX == nil do
         TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
         Citizen.Wait(0)
 	end
+    end
 end)
 
 -- ESC close NUI function
