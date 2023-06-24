@@ -1,4 +1,7 @@
 Config = {}
+
+Config.NewESX = true
+
 Config.Vending = { -- https://gtahash.ru/?s=vend
 	{modelname = "prop_vend_coffe_01"}
 }
