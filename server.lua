@@ -1,6 +1,9 @@
-ESX = nil
-
-TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+Citizen.CreateThread(function()
+	if not Config.NewESX then
+		ESX = nil
+		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
+	end
+end)
 
 RegisterServerEvent('ic3d_vendingmachines:buydrinkserver')
 AddEventHandler('ic3d_vendingmachines:buydrinkserver', function()
