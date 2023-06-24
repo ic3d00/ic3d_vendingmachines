@@ -29,3 +29,5 @@ files {
 dependencies {
 	'es_extended'
 }
+
+shared_script '@es_extended/imports.lua'
