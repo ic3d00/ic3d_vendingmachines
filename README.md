@@ -2,6 +2,8 @@
 
 A cool vending UI
 
+## Preview[https://youtu.be/IonbxrRKTy0?si=f0d04KbId_zRKJc_]
+
 # Features
 . Configurable range, item, price and prop(s)  
 . 7 languages available  
